@@ -1,4 +1,7 @@
 galaxy_info:
   author: "Boris Mikhaylov"
   description: "Role to ignore gemsets"
+  categories:
+    - development
+    - system
 dependencies: []

@@ -1,0 +1,5 @@
+- name: configure rvm
+  lineinfile: dest=/etc/rvmrc line="{{item}}"
+  with_items:
+     - "export rvm_gemset_create_on_use_flag=0"
+     - "export rvm_ignore_gemsets_flag=1"
